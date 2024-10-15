@@ -1,9 +1,14 @@
-var tier= "none";
-var output= "I'll receive";
+var tier = "a deck of legends ";
+var output="you'll receive ";
 
-switch(tier){
+switch(tier) {
+  case "a deck of legends":
+    output += "a custom of card ";
+  case "collector's deck":
+     output +="a signed version of the exploding kittens card ";
+  case "nsfw deck":
+    output +="one copy of the nsfw exploding kittens card game and ; ";
   default:
-  output += "one copy of exploding kitten card game";
-
-}
-console.log(output);
+    output +="one copy of the exploding kittens card game ";
+  }
+  console.log(output);
