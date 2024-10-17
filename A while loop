@@ -1,6 +1,10 @@
-function sayHello(){
-  var message= "Hello!!"
-  return message;
-}
-console.log(sayHello());
+function laugh(num) {
+  let laughter="ha";
+  for(let i=1;i<=num;i++){
+  laughter += "ha";
+    
 
+}
+return laughter +"!";
+}
+console.log(laugh(100));
