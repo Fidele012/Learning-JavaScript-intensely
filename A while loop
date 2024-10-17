@@ -1,10 +1,9 @@
-function addTen(x) {
-        return x+10;
+var x = 1;
+
+function addTwo() {
+  var x = x + 2;
 }
 
-function divideByThree(y) {
-  return y/3;
-}
-
-var result= addTen(78);
-console.log(divideByThree(result));
+addTwo();
+x = x + 1;
+console.log(x);
