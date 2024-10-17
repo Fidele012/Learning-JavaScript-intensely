@@ -1,7 +1,10 @@
-function sleep() {
-  console.log("I'm sleepy!");
-  return "zzz";
-  return "snore";
+function addTen(x) {
+        return x+10;
 }
 
-sleep();
+function divideByThree(y) {
+  return y/3;
+}
+
+var result= addTen(78);
+console.log(divideByThree(result));
