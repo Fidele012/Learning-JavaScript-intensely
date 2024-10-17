@@ -1,5 +1,7 @@
-function isThisWorking(input) {
-  console.log("Printing: isThisWorking was called and " + input + " was passed in as an argument.");
+function sleep() {
+  console.log("I'm sleepy!");
+  return "zzz";
+  return "snore";
 }
 
-isThisWorking(3);
+sleep();
