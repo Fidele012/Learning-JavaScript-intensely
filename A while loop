@@ -1,7 +1,4 @@
-let solution = 1;
-
-for (let i = 1; i <= 12; i++) {
-  solution *= i;
+for(var x=0;x<=25;x++){
+  for(var y=0;y<=99;y++)
+    console.log(x+"-"+y);
 }
-
-console.log(solution);
