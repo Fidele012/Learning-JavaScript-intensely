@@ -1,10 +1,11 @@
-function laugh(num) {
-  let laughter="ha";
-  for(let i=1;i<=num;i++){
-  laughter += "ha";
+function isPrime(integer) {
+  for(var x=2; x<integer;x++){
+    if(integer%x===0){
+      console.log(integer +" is divisible by "+x);
+      return false;
+    }
     
-
+  }
+         return true;
 }
-return laughter +"!";
-}
-console.log(laugh(100));
+isPrime(7);
