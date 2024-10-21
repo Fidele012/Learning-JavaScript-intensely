@@ -1,0 +1,11 @@
+function drawStairs(n) {
+  let result = '';
+  for (let i = 0; i < n; i++) {
+      result += ' '.repeat(i) + 'I\n'; // Add spaces and "I"
+  }
+  return result.trim(); // Remove the trailing newline character
+}
+
+// Example usage:
+console.log(drawStairs(3)); // Output for n = 3
+console.log(drawStairs(7)); // Output for n = 7
