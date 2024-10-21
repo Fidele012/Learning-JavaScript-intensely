@@ -1,10 +1,6 @@
-var sister= {
-  name: "Fidele",
-  age : 21,
-  parents:["Jean","Fortunee"],
-  siblings:["Claude"],
-  favoriteColor:"pink",
-  pets: true,
-  paintPicture:function() { return "Sarah paints!"; }
-}
-sister.paintPicturePicture();
+var breakfast= {
+  name:"The Lumberjack",
+  number:9.95,
+  ingredients:["eggs","sausage","toast","hashbrowns","pancakes"]
+};
+console.log(breakfast);
